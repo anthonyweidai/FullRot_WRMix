@@ -1,0 +1,3 @@
+export DETECTRON2_DATASETS=../autodl-tmp/
+CUDA_VISIBLE_DEVICES=0 python trainDet.py --config-file lib/detection/configs/faster_rcnn_R_50_FPN.yaml --num-gpus 1 MODEL.WEIGHTS ../autodl-tmp/pkl/rotation_resnet50_30rr_v2_bshuffle_minr6_e200bs1024_Exp1.pkl
+CUDA_VISIBLE_DEVICES=0 python trainDet.py --config-file lib/detection/configs/faster_rcnn_R_50_FPN.yaml --num-gpus 1 MODEL.WEIGHTS ../autodl-tmp/pkl/rotation_resnet50_wrmix5_30rr_v2_bshuffle_minr6_e200bs1024_Exp2.pkl
