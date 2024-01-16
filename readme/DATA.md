@@ -1,11 +1,11 @@
 # Dataset preparation
 
 ## STL-10 Dataset
-The STL-10 dataset is a genral image recognition dataset designed for unsupervised learning and is inspired by the CIFAR-10 dataset. 
+The STL-10 dataset is a general image recognition dataset designed for unsupervised learning inspired by the CIFAR-10 dataset. 
 
-- To obtain the dataset, you can download it from [STL-10 dataset](https://cs.stanford.edu/~acoates/stl10/).
+- To obtain the dataset, download it from [STL-10 dataset](https://cs.stanford.edu/~acoates/stl10/).
 
-- Onece you downloaded the dataset, you need to rearrange the binary files contraining images and labels using the `tools/stl10Save.py` script.
+- After downloading the dataset, you need to rearrange the binary files containing images and labels using the `tools/stl10Save.py` script.
 
 - The desired output data structure should be as follows:
 ~~~
@@ -44,7 +44,7 @@ The CIFAR-10 and CIFAR-100 datasets are labelled subsets of the 80 million tiny 
 
 - To obtain the dataset, you can download it from [CIFAR-10 dataset](https://www.kaggle.com/c/cifar-10/) and [CIFAR-100 dataset](https://www.kaggle.com/datasets/fedesoriano/cifar100).
 
-- Onece you downloaded the dataset, you need to rearrange the images with same class (each class use a folder with the class name).
+- After downloading, you need to rearrange the images with the same class (each class uses a folder with the class name).
 
 - The desired output data structure should be as follows:
 ~~~
@@ -97,13 +97,13 @@ ${FullRot_WRMix_ROOT}
 
 ## PAD-UFES-20 Dataset
 
-The data of PAD-UFES-20 is smartphone skin lesion image. 
+The data of PAD-UFES-20 is a smartphone skin lesion image. 
 
 - To obtain the dataset, you can download it from [PAD-UFES-20: a skin lesion dataset composed of patient data and clinical images collected from smartphones](https://data.mendeley.com/datasets/zr7vgbcyr2/1).
 
-- Onece you downloaded the dataset, you need to rearrange images with same class (each class use a folder with the class name).
+- After downloading, you need to rearrange images with the same class (each class uses a folder with the class name).
 
-- Create the 5 split subset for cross-validation.
+- Create the five split subsets for cross-validation.
 
 - The desired output data structure should be as follows:
 
@@ -131,7 +131,7 @@ The PASCAL VOC 2012 dataset is a realistic scene image recognition dataset.
 
 - To obtain the dataset, you can download it from [Visual Object Classes Challenge 2012 (VOC2012)](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/).
 
-- Onece you downloaded the dataset, you need to rearrange the images and masks within the same folder.
+- After downloading, rearrange the images and masks within the same folder.
 
 - The desired output data structure should be as follows:
 ~~~
@@ -159,11 +159,11 @@ ${FullRot_WRMix_ROOT}
 ~~~
 
 ## ISIC 2018 Dataset
-The data of ISIC 2018 dataset is skin lesion data with corresponding binary masks. 
+The data of the ISIC 2018 dataset is skin lesion data with corresponding binary masks. 
 
 - To obtain the dataset, you can download it from [ISIC Challenge Datasets](https://challenge.isic-archive.com/data/#2018).
 
-- Onece you downloaded the dataset, you need to rearrange the images and masks within the same folder.
+- After downloading, rearrange the images and masks within the same folder.
 
 - The desired output data structure should be as follows:
 ~~~
@@ -192,6 +192,20 @@ ${FullRot_WRMix_ROOT}
 
 ## PASCAL VOC 2007 Dataset
 Follows the detectron2 settings in the [directory structure](https://github.com/facebookresearch/detectron2/tree/main/datasets).
+
+## Sports-100, Mammals-45, FloodArea, TikTokDances, and UTDAC 2020
+Please refer to their official websites.
+
+Sports-100: [100 Sports Image Classification](https://www.kaggle.com/datasets/gpiosenka/sports-classification).
+
+Mammals-45: [Mammals Image Classification Dataset (45 Animals)](https://www.kaggle.com/datasets/asaniczka/mammals-image-classification-dataset-45-animals).
+
+FloodArea: [Flood Area Segmentation](https://www.kaggle.com/datasets/faizalkarim/flood-area-segmentation).
+
+TikTokDances: [Human Segmentation Dataset - TikTok Dances](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-tiktok-dancing-dataset).
+
+UTDAC 2020: [Boosting-R-CNN](https://github.com/mousecpn/Boosting-R-CNN-Reweighting-R-CNN-Samples-by-RPN-s-Error-for-Underwater-Object-Detection).
+
 
 ## References
 
