@@ -22,11 +22,11 @@ For pre-training the resnet50 model using self-supervised learning, you can foll
 
 ### *Semantic segmentation results on PASCAL VOC 2012, ISIC 2018, FloodArea, and TikTokDances*  
 
-<p align="left"> <img src=readme/segmentation.png align="center" width="480px">
+<p align="left"> <img src=readme/segmentation.png align="center" width="720px">
 
 ### *Object Detection results on PASCAL VOC 2007 and UTDAC 2020*  
 
-<p align="left"> <img src=readme/detection.png align="center" width="480px">
+<p align="left"> <img src=readme/detection.png align="center" width="720px">
 
 ### Ablation study
 For the training settings of the ablation study and extracurricular experiments, please refer to the [ablation.sh](shell/ablation.sh) and [ablation_extra.sh](shell/ablation_extra.sh) scripts.
