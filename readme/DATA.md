@@ -267,9 +267,14 @@ If you use the datasets and our data pre-processing codes, we kindly request tha
 	howpublished = "http://www.pascal-network.org/challenges/VOC/voc2007/workshop/index.html"}	
 
 
-@article{dai2023any,
-    title={Any Region Can Be Perceived Equally and Effectively on Rotation Pretext Task Using Full Rotation and Weighted-Region Mixture},
-    author={Dai, Wei and Wu, Tianyi and Liu, Rui and Wang, Min and Yin, Jianqin and Liu, Jun},
-    year={2023}
+
+@article{dai2024any,
+  title={Any region can be perceived equally and effectively on rotation pretext task using full rotation and weighted-region mixture},
+  author={Dai, Wei and Wu, Tianyi and Liu, Rui and Wang, Min and Yin, Jianqin and Liu, Jun},
+  journal={Neural Networks},
+  pages={106350},
+  year={2024},
+  publisher={Elsevier}
 }
+
 ~~~

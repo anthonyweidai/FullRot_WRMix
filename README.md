@@ -36,9 +36,10 @@ For the training settings of the ablation study and extracurricular experiments,
 If you find this implementation useful in your research, we kindly request that you consider citing our paper as follows:
 
     @article{dai2024any,
-      title={Any Region Can Be Perceived Equally and Effectively on Rotation Pretext Task Using Full Rotation and Weighted-Region Mixture},
+      title={Any region can be perceived equally and effectively on rotation pretext task using full rotation and weighted-region mixture},
       author={Dai, Wei and Wu, Tianyi and Liu, Rui and Wang, Min and Yin, Jianqin and Liu, Jun},
-      ssrn={4495231},
-      url={https://ssrn.com/abstract=4495231},
-      journal={Under review by Neural Networks},
+      journal={Neural Networks},
+      pages={106350},
+      year={2024},
+      publisher={Elsevier}
     }
