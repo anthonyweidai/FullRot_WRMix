@@ -1,6 +1,10 @@
 # FullRot_WRMix
 The official implementation of FullRot + WRMix provides a comprehensive set of functions for deep learning and computer vision tasks. It includes training process printing, log saving, and computation and storage of standard metrics for classification, semantic segmentation, and object detection tasks.
 
+[**Any region can be perceived equally and effectively on rotation pretext task using full rotation and weighted-region mixture**](https://ieeexplore.ieee.org/document/10230242)  
+Wei Dai, Tianyi Wu, Rui Liu, Min Wang, Jianqin Yin, Jun Liu        
+Accepted in Neural Networks, 2024. [[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4495231)][[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608024002740?dgcid=rss_sd_all)]
+
 
 ![](./readme/framework.svg)
 
