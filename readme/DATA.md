@@ -169,7 +169,7 @@ The data of the ISIC 2018 dataset is skin lesion data with corresponding binary 
 ~~~
 ${FullRot_WRMix_ROOT}
 |-- dataset
-`-- |-- PASCALVOC
+`-- |-- ISIC2018
     `-- |--- train
             |--- ISIC_0000000.jpg
             |--- ISIC_0000001.jpg
